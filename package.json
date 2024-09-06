@@ -1,0 +1,22 @@
+{
+  "name": "detect-game",
+  "version": "1.0.0",
+  "description": "Provide a brief description of what your project does and its purpose. This section should give new users a clear understanding of what they can achieve with your project.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx postcss tailwind.css -o static/css/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.45",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.10"
+  }
+}
