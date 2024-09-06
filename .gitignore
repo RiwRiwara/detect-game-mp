@@ -1,0 +1,25 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Poetry
+.poetry/
+*.lock
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Static files
+static/
